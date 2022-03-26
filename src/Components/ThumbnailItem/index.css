@@ -17,7 +17,9 @@
 }
 @media (max-width: 767px) {
   .thumbnail-container {
-    min-width: 70px;
-    min-height: 70px;
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 60px;
+    max-height: 60px;
   }
 }
