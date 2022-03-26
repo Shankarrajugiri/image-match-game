@@ -1,7 +1,7 @@
 .thumbnail-container {
-  width: 17%;
-  margin: 5px;
-  height: 100px;
+  max-width: 120px;
+  margin: 1px;
+  max-height: 120px;
 }
 .thumbnail-button {
   background-color: transparent;
@@ -17,8 +17,7 @@
 }
 @media (max-width: 767px) {
   .thumbnail-container {
-    width: 20%;
-    margin: 5px;
-    height: 60px;
+    min-width: 70px;
+    min-height: 70px;
   }
 }
